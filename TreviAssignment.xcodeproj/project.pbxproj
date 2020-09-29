@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		172D0C72252357DA0071A80A /* MatrixColumnButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D0C71252357DA0071A80A /* MatrixColumnButton.swift */; };
+		172D0C742523603F0071A80A /* CGFloat+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 172D0C732523603F0071A80A /* CGFloat+Random.swift */; };
+		179DF5AD2522D11C004CC4D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5AC2522D11C004CC4D7 /* AppDelegate.swift */; };
+		179DF5B62522D11D004CC4D7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 179DF5B52522D11D004CC4D7 /* Assets.xcassets */; };
+		179DF5B92522D11D004CC4D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 179DF5B72522D11D004CC4D7 /* LaunchScreen.storyboard */; };
+		179DF5C12522D1BA004CC4D7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5C02522D1BA004CC4D7 /* HomeViewController.swift */; };
+		179DF5C32522D344004CC4D7 /* MatrixInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5C22522D344004CC4D7 /* MatrixInputViewController.swift */; };
+		179DF5C52522D523004CC4D7 /* MatrixInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5C42522D523004CC4D7 /* MatrixInputView.swift */; };
+		179DF5C72522D695004CC4D7 /* Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5C62522D695004CC4D7 /* Matrix.swift */; };
+		179DF5C92522D77C004CC4D7 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179DF5C82522D77C004CC4D7 /* UIView+Layout.swift */; };
+		17C65329252323B500F698C7 /* MatrixViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C65328252323B500F698C7 /* MatrixViewController.swift */; };
+		17C6532B2523255C00F698C7 /* MatrixColumnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C6532A2523255C00F698C7 /* MatrixColumnView.swift */; };
+		17C6532D2523262200F698C7 /* MatrixItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17C6532C2523262200F698C7 /* MatrixItemView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		172D0C71252357DA0071A80A /* MatrixColumnButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixColumnButton.swift; sourceTree = "<group>"; };
+		172D0C732523603F0071A80A /* CGFloat+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGFloat+Random.swift"; sourceTree = "<group>"; };
+		179DF5A92522D11C004CC4D7 /* TreviAssignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TreviAssignment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179DF5AC2522D11C004CC4D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		179DF5B52522D11D004CC4D7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		179DF5B82522D11D004CC4D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		179DF5BA2522D11D004CC4D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		179DF5C02522D1BA004CC4D7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		179DF5C22522D344004CC4D7 /* MatrixInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixInputViewController.swift; sourceTree = "<group>"; };
+		179DF5C42522D523004CC4D7 /* MatrixInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixInputView.swift; sourceTree = "<group>"; };
+		179DF5C62522D695004CC4D7 /* Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Matrix.swift; sourceTree = "<group>"; };
+		179DF5C82522D77C004CC4D7 /* UIView+Layout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		17C65328252323B500F698C7 /* MatrixViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixViewController.swift; sourceTree = "<group>"; };
+		17C6532A2523255C00F698C7 /* MatrixColumnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixColumnView.swift; sourceTree = "<group>"; };
+		17C6532C2523262200F698C7 /* MatrixItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatrixItemView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		179DF5A62522D11C004CC4D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		179DF5A02522D11C004CC4D7 = {
+			isa = PBXGroup;
+			children = (
+				179DF5AB2522D11C004CC4D7 /* TreviAssignment */,
+				179DF5AA2522D11C004CC4D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		179DF5AA2522D11C004CC4D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5A92522D11C004CC4D7 /* TreviAssignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		179DF5AB2522D11C004CC4D7 /* TreviAssignment */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5CD2522D9CC004CC4D7 /* Model */,
+				179DF5CB2522D94E004CC4D7 /* View&ViewController */,
+				179DF5CA2522D7A6004CC4D7 /* Extension */,
+				179DF5AC2522D11C004CC4D7 /* AppDelegate.swift */,
+				179DF5B52522D11D004CC4D7 /* Assets.xcassets */,
+				179DF5B72522D11D004CC4D7 /* LaunchScreen.storyboard */,
+				179DF5BA2522D11D004CC4D7 /* Info.plist */,
+			);
+			path = TreviAssignment;
+			sourceTree = "<group>";
+		};
+		179DF5CA2522D7A6004CC4D7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5C82522D77C004CC4D7 /* UIView+Layout.swift */,
+				172D0C732523603F0071A80A /* CGFloat+Random.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		179DF5CB2522D94E004CC4D7 /* View&ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				17C653272523122A00F698C7 /* MatrixView */,
+				179DF5CE2522D9DB004CC4D7 /* Home */,
+				179DF5CC2522D967004CC4D7 /* MatrixInputView */,
+			);
+			path = "View&ViewController";
+			sourceTree = "<group>";
+		};
+		179DF5CC2522D967004CC4D7 /* MatrixInputView */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5C22522D344004CC4D7 /* MatrixInputViewController.swift */,
+				179DF5C42522D523004CC4D7 /* MatrixInputView.swift */,
+			);
+			path = MatrixInputView;
+			sourceTree = "<group>";
+		};
+		179DF5CD2522D9CC004CC4D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5C62522D695004CC4D7 /* Matrix.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		179DF5CE2522D9DB004CC4D7 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				179DF5C02522D1BA004CC4D7 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		17C653272523122A00F698C7 /* MatrixView */ = {
+			isa = PBXGroup;
+			children = (
+				17C65328252323B500F698C7 /* MatrixViewController.swift */,
+				17C6532A2523255C00F698C7 /* MatrixColumnView.swift */,
+				17C6532C2523262200F698C7 /* MatrixItemView.swift */,
+				172D0C71252357DA0071A80A /* MatrixColumnButton.swift */,
+			);
+			path = MatrixView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		179DF5A82522D11C004CC4D7 /* TreviAssignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 179DF5BD2522D11D004CC4D7 /* Build configuration list for PBXNativeTarget "TreviAssignment" */;
+			buildPhases = (
+				179DF5A52522D11C004CC4D7 /* Sources */,
+				179DF5A62522D11C004CC4D7 /* Frameworks */,
+				179DF5A72522D11C004CC4D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TreviAssignment;
+			productName = TreviAssignment;
+			productReference = 179DF5A92522D11C004CC4D7 /* TreviAssignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		179DF5A12522D11C004CC4D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = RokurouC;
+				TargetAttributes = {
+					179DF5A82522D11C004CC4D7 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 179DF5A42522D11C004CC4D7 /* Build configuration list for PBXProject "TreviAssignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 179DF5A02522D11C004CC4D7;
+			productRefGroup = 179DF5AA2522D11C004CC4D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				179DF5A82522D11C004CC4D7 /* TreviAssignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		179DF5A72522D11C004CC4D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				179DF5B92522D11D004CC4D7 /* LaunchScreen.storyboard in Resources */,
+				179DF5B62522D11D004CC4D7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		179DF5A52522D11C004CC4D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17C6532B2523255C00F698C7 /* MatrixColumnView.swift in Sources */,
+				179DF5C72522D695004CC4D7 /* Matrix.swift in Sources */,
+				179DF5C52522D523004CC4D7 /* MatrixInputView.swift in Sources */,
+				179DF5C92522D77C004CC4D7 /* UIView+Layout.swift in Sources */,
+				17C6532D2523262200F698C7 /* MatrixItemView.swift in Sources */,
+				179DF5AD2522D11C004CC4D7 /* AppDelegate.swift in Sources */,
+				179DF5C32522D344004CC4D7 /* MatrixInputViewController.swift in Sources */,
+				179DF5C12522D1BA004CC4D7 /* HomeViewController.swift in Sources */,
+				172D0C72252357DA0071A80A /* MatrixColumnButton.swift in Sources */,
+				17C65329252323B500F698C7 /* MatrixViewController.swift in Sources */,
+				172D0C742523603F0071A80A /* CGFloat+Random.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		179DF5B72522D11D004CC4D7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				179DF5B82522D11D004CC4D7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		179DF5BB2522D11D004CC4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		179DF5BC2522D11D004CC4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		179DF5BE2522D11D004CC4D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TreviAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.Trevi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		179DF5BF2522D11D004CC4D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = TreviAssignment/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.assignment.Trevi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		179DF5A42522D11C004CC4D7 /* Build configuration list for PBXProject "TreviAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179DF5BB2522D11D004CC4D7 /* Debug */,
+				179DF5BC2522D11D004CC4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		179DF5BD2522D11D004CC4D7 /* Build configuration list for PBXNativeTarget "TreviAssignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				179DF5BE2522D11D004CC4D7 /* Debug */,
+				179DF5BF2522D11D004CC4D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 179DF5A12522D11C004CC4D7 /* Project object */;
+}
